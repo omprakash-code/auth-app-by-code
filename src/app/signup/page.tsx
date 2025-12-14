@@ -11,12 +11,12 @@ import { toast } from 'react-hot-toast';
 
 export default function SignupPage() {
   const router = useRouter()
-  const [user, setUser] = React.useState({
+  const [user, setUser] = useState({
     username: '',
     email: '',
     password: ''
   });
-  const [buttonDisabled, setButtonDisabled] = React.useState(false);
+  const [buttonDisabled, setButtonDisabled] = useState(false);
 
   const [loading, setLoading] = useState(false);
 
